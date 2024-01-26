@@ -1,0 +1,29 @@
+{
+  "name": "task-27",
+  "version": "1.0.0",
+  "description": "Guvi FSD Roadmap Task 27 - Mentor/Student API with Nodejs and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lhondikoi/task-27.git"
+  },
+  "author": "L. Hondikoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lhondikoi/task-27/issues"
+  },
+  "homepage": "https://github.com/lhondikoi/task-27#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "nodejs": "^0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
