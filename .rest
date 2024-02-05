@@ -1,0 +1,41 @@
+get http://localhost:3000/api/v1/students
+
+###
+
+get http://localhost:3000/api/v1/students/65c14b8341d5241140f07aba/mentors
+
+###
+
+post http://localhost:3000/api/v1/students
+
+###
+
+put http://localhost:3000/api/v1/students
+Content-Type: application/json
+
+{
+    "mid": "65c14b9441d5241140f07abc",
+    "sid": "65c14b8341d5241140f07aba"
+}
+
+###
+
+get http://localhost:3000/api/v1/mentors
+
+###
+
+post http://localhost:3000/api/v1/mentors
+
+###
+
+put http://localhost:3000/api/v1/mentors
+Content-Type: application/json
+
+{
+    "sid": "65c14b8341d5241140f07aba",
+    "mid": "65c14b9441d5241140f07abc"
+}
+
+###
+
+get http://localhost:3000/api/v1/mentors/65c14b9441d5241140f07abc/students
