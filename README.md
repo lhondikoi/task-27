@@ -4,6 +4,8 @@
 BASE_URL = "https://mentor-api-8rt8.onrender.com"
 ```
 
+### Student Management Endpoints
+
 Method | URI | Description
 ------------|-----|-------
 GET | http://{BASE_URL}/api/v1/students | Fetch all students
@@ -11,6 +13,7 @@ GET | http://{BASE_URL}/api/v1/students/{studentId}/mentors | Fetch all mentors 
 POST | http://{BASE_URL}/api/v1/students | Create a new student
 PUT |  http://{BASE_URL}/api/v1/students | Assign a mentor to a student
 
+### Mentor Management Endpoints
 
 Method | URI | Description
 ------------|-----|-------
